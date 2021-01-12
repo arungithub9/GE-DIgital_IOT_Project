@@ -1,13 +1,5 @@
 /*  G.E. Digital Hackathon
- *   Arunachalam M
- *   Sangeeth Raaj S R
- *    Amrita School of Engineering
- *
- * Pin Connections and Equipments used
- *
- * //////////////Arun, Update them here and remove the Servo 5line comment below///////////
- *
- */
+*/
 
 
 #include<stdlib.h>
@@ -20,7 +12,7 @@ Servo lock;
 
 SoftwareSerial RFSerial(10, 11);
 
-#define SSID "Jiofis"             // Wifi HotSpot Credentials   // While Uploading, give generic ones like <SSID> and <passkey>
+#define SSID "Jiofis" // Wifi HotSpot Credentials   // While Uploading, give generic ones like <SSID> and <passkey>
 #define PASS "qwerty1234"
 
 #define DHTPIN 6     // what pin the DHT sensor is connected to
