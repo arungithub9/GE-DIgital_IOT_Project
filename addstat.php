@@ -29,14 +29,11 @@ ini_set('display_errors', 1);
         	}
         	
         	$query2 ="UPDATE `izilla_shipments` SET `status` = '".$s2."',`timestamp` = '".$ts1."' WHERE `izilla_shipments`.`shipment_id` = '".$sid."'";
-        	
-        // 	$query = "INSERT INTO `izilla_tlogs` (`temp`, `hum`, `device_id`) 
-        // 		VALUES ('".$temp1."','".$hum1."','".$devid."')"; 
+ 
            	
            	mysqli_query($link,$query2);
 	   
 	mysqli_close($link);
 	echo 'OK'
 
-   	// header("Location: index.php");
 ?>
